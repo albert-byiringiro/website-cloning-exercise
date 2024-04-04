@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+nav {
+  border: 2px solid #f56565;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  width: 100%;
+}
+
+.hero img {
+  height: 65vh;
+}
+
+.heading-container {
+  height: 65vh;
+  top: -1px;
+}
+
+.quote-form {
+  margin-top: -45px;
+  opacity: 0.99;
+  z-index: 10;
+}
